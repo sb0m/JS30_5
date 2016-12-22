@@ -121,8 +121,3 @@ body{
     /*wenn it has a class of open it will take 5 times the size of the other panels */
     flex: 5;
 }
-
-.cta {
-    color: #ecebe4;
-    text-decoration: none;
-}
