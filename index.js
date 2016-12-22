@@ -3,6 +3,7 @@ window.onload = function () {
     // Reference to the funtion: toggleOpen
     // run the function: toggleOpen()
     panels.forEach(panel => panel.addEventListener('click', toggleOpen));
+    panels.forEach(panel => panel.addEventListener("touchstart", toggleOpen));
     panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
 }
 
